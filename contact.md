@@ -6,8 +6,6 @@ image:
   feature: haeckel_bryo.jpg
 ---
 
-# Contact
-
 Please don't hesitate to contact me:
 
 No dudes en contactarme:
