@@ -12,13 +12,13 @@
   image: 
 
 
-- title: Contact
-  url: /contact/
+- title: More
+  url: /more/
   excerpt:
   image: 
 
 
-- title: More
-  url: /more/
+- title: Contact
+  url: /contact/
   excerpt:
   image: 
