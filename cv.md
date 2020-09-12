@@ -2,8 +2,6 @@
 layout: article
 title: Curriculum vitae
 permalink: /cv/
-ads: false
-share: false
 image:
   feature: haeckel_bryo.jpg
 ---
