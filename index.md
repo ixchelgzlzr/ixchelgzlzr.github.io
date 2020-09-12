@@ -4,7 +4,7 @@ permalink: /
 image: /images/ix_sequoia.jpg
 ---
 
-# About me
+<h2> About me </h2>
 I am a biologist interested in the diversity and evolution of **fruit-free plants**, specially (but not exclusively) liverworts and conifers. I am a PhD student in the departement of Integrative Biology in UC Berkeley in the [Bryolab](https://bryolab.berkeley.edu). 
 I am currently developing projects on understanding the evolution of liverworts morphological diversity and distribution patterns. Therefore the biological tools I am exploring include phylogenetical methods that incorporate morphological traits and spaial phylogenetics. If you are interested in knowing more about my work, visit my research site or publications site.
 I obtained my B.A. degree in Biology in Facultad de Ciencias, UNAM. I then obtained a Master's degree in Biological Sciences (Systematics) also in UNAM. 
