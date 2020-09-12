@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-image: images/haeckel_bryo.jpg
+image: ix_sequoia.jpg
 ---
 
 # Welcome to my personal site!
