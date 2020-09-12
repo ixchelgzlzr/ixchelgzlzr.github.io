@@ -6,12 +6,6 @@
   image: 
 
 
-- title: Visualization
-  url: /media/
-  excerpt:
-  image: 
-
-
 - title: CV
   url: /cv/
   excerpt:
@@ -20,5 +14,11 @@
 
 - title: Contact
   url: /contact/
+  excerpt:
+  image: 
+
+
+- title: More
+  url: /more/
   excerpt:
   image: 
