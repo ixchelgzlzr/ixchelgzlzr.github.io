@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: content
 title: Contact
 permalink: /contact/
 image:
