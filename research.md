@@ -22,14 +22,14 @@ A pesar de que las hepáticas son plantas pequeñitas que raramente miden más d
 
 En este proyecto, estoy abordando estas preguntas con una hepática talosa que se distribuye en toda la costa oeste de norteamérica: *Asterella californica*. Este trabajo ha sido financiado por un gran proyecto, [California Conservation Genomics Project](https://sites.lifesci.ucla.edu/eeb-CCGP/), y forma parte de un esfuerzo multidisciplinario de conservación.
 
-### Total evidence dating of land plants
+#### Total evidence dating of land plants
 
-### Geographic patterns of Mexican liverworts
+#### Geographic patterns of Mexican liverworts
 
-### Spatial phylogenetics of Baja California
+#### Spatial phylogenetics of Baja California
 
 
-# Recent tools
+## Recent tools
 **Interactive map of liverwort collections in Mexico**
 
 In this [map](http://rpubs.com/Ixchel/513484) you can explore the collections that exist for Mexico 
