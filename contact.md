@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: content
 title: Contact
 permalink: /contact/
 ads: false
