@@ -1,15 +1,10 @@
 ---
 layout: home
 permalink: /
-image:
-  feature: oaks_1600.png 
+image: images/haeckel_bryo.jpg
 ---
 
 # Welcome to my personal site!
-
-<p align="center">
-  <img width="1000" height="600" src="images/haeckel_bryo.jpg">
-</p>
 
 # About me
 I am a biologist interested in the diversity and evolution of **fruit-free plants**, specially (but not exclusively) liverworts and conifers. I am a PhD student in the departement of Integrative Biology in UC Berkeley in the [Bryolab](https://bryolab.berkeley.edu). 
