@@ -17,22 +17,3 @@ Soy una bióloga interesada en el estudio de la diversidad y evolución de las *
 Desde una perspectiva metodológica, me gusta explorar métodos filogenéticos que buscan comprender patrones de diversidad incorporando diferentes fuentes de información como el registro fósil, información geográfica, morfología y genética.
 
 ¡Gracias por visitar mi sitio!
-
-<div class="tiles">
-
-<div class="tile">
-  <h2 class="post-title">Research</h2>
-  <p class="post-excerpt">If you want to know more about my work visit my <a href="/research">research page</a>.</p>
-</div><!-- /.tile -->
-
-<div class="tile">
-  <h2 class="post-title">CV</h2>
-  <p class="post-excerpt"> You can check my academic contributions <a href="cv">here</a>.</p>
-</div><!-- /.tile -->
-
-<div class="tile">
-  <h2 class="post-title">Contact</h2>
-  <p class="post-excerpt"> And if you are interested in my research, feel free to <a href="/contact">contact me</a>.</p>
-</div><!-- /.tile -->
-
-
