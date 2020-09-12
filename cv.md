@@ -7,7 +7,7 @@ image:
 ---
 
 # Publications
-1.**González–Ramírez**, I. and Z. Cano–Santana (2019) Estudio preliminar de las comunidades de artrópodos asociadas a dos
+1. **González–Ramírez**, I. and Z. Cano–Santana (2019) Estudio preliminar de las comunidades de artrópodos asociadas a dos
 plantas parásitas y su hospedero en la Sierra Nevada, México. Xilema Forestal, 29(1), pp. 47-53.
 2. Ollerton, J. et al. (2019) The diversity and evolution of pollination systems in large plant clades: Apocynaceae as a case
 study. Annals of Botany, 123(2), pp. 311-325. doi: 10.1093/aob/mcy127.
