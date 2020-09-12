@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-image: /images/ix_sequoia.jpg
+image: ix_sequoia.jpg
 ---
 
 <h2> About me </h2>
@@ -17,8 +17,6 @@ I obtained my B.A. degree in Biology in Facultad de Ciencias, UNAM. I then obtai
   <h2 class="post-title">Research</h2>
   <p class="post-excerpt">If you want to know more about my work visit my <a href="/research">research page</a>.</p>
 </div><!-- /.tile -->
-
-<div class="tiles">
 
 <div class="tile">
   <h2 class="post-title">CV</h2>
