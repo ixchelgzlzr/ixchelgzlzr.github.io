@@ -1,9 +1,9 @@
 ---
-layout: media
+layout: article
 title: Contact
 permalink: /contact/
 image:
-  feature: haeckel_bryo.jpg
+  feature: bryo.jpg
 ---
 
 Please don't hesitate to contact me: / No dudes en contactarme:
