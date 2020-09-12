@@ -1,5 +1,5 @@
 ---
-layout: content
+layout: default
 title: Contact
 permalink: /contact/
 ads: false
@@ -9,9 +9,10 @@ image:
 ---
 
 # Contact
-<img align="left" width="300" height="300" src="images/Ixchel.jpg">
+![Ix] (images/Ixchel.jpg)
 
-Please don't hesitate to contact me through  e-mail: 
+Please don't hesitate to contact me:
+No dudes en contactarme:
 
 **ixchel_gonzalezrmz@berkeley.edu** 
 
