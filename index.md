@@ -1,7 +1,8 @@
 ---
 layout: home
 permalink: /
-image: ix_sequoia.jpg
+image:
+  feature: ix_sequoia.jpg
 ---
 
 <h2> About me </h2>
