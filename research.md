@@ -37,3 +37,21 @@ En este proyecto, estoy abordando estas preguntas con una hepática talosa que s
 In this [map](http://rpubs.com/Ixchel/513484) you can explore the collections that exist for Mexico 
 
 
+<div class="tiles">
+
+<div class="tile">
+  <h2 class="post-title">Research</h2>
+  <p class="post-excerpt">If you want to know more about my work visit my <a href="/research">research page</a>.</p>
+</div><!-- /.tile -->
+
+<div class="tile">
+  <h2 class="post-title">CV</h2>
+  <p class="post-excerpt"> You can check my academic contributions <a href="cv">here</a>.</p>
+</div><!-- /.tile -->
+
+<div class="tile">
+  <h2 class="post-title">Contact</h2>
+  <p class="post-excerpt"> And if you are interested in my research, feel free to <a href="/contact">contact me</a>.</p>
+</div><!-- /.tile -->
+
+
