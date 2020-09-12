@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 image:
-  feature: ix_sequoia1.jpg
+  feature: ix_sequoiadendron.jpg
 ---
 
 <h2> About me </h2>
