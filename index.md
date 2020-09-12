@@ -27,12 +27,12 @@ Desde una perspectiva metodológica, me gusta explorar métodos filogenéticos q
 
 <div class="tile">
   <h2 class="post-title">CV</h2>
-  <p class="post-excerpt"> You can check my academic contributions <a href="cv.md">here</a>.</p>
+  <p class="post-excerpt"> You can check my academic contributions <a href="cv">here</a>.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
   <h2 class="post-title">Contact</h2>
-  <p class="post-excerpt"> And if you are interested in my research, feel free to <a href="/cv">contact me</a>.</p>
+  <p class="post-excerpt"> And if you are interested in my research, feel free to <a href="/contact">contact me</a>.</p>
 </div><!-- /.tile -->
 
 
