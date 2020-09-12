@@ -1,10 +1,8 @@
 ---
 layout: home
 permalink: /
-image: ix_sequoia.jpg
+image: /images/ix_sequoia.jpg
 ---
-
-# Welcome to my personal site!
 
 # About me
 I am a biologist interested in the diversity and evolution of **fruit-free plants**, specially (but not exclusively) liverworts and conifers. I am a PhD student in the departement of Integrative Biology in UC Berkeley in the [Bryolab](https://bryolab.berkeley.edu). 
