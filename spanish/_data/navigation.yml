@@ -1,24 +1,30 @@
 # Site navigation links
 
 - title: Investigación
-  url: /research/
+  url: /spanish/research/
   excerpt: 
   image: 
 
 
 - title: CV
-  url: /cv/
+  url: /spanish/cv/
   excerpt:
   image: 
 
 
 - title: Más
-  url: /more/
+  url: /spanish/more/
   excerpt:
   image: 
 
 
 - title: Contacto
-  url: /contact/
+  url: /spanish/contact/
+  excerpt:
+  image: 
+
+
+- title: Inglés
+  url: ../
   excerpt:
   image: 
