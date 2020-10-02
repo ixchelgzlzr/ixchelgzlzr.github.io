@@ -8,6 +8,6 @@ image:
   feature: Point_Reyes.jpg
 ---
 
-## Un poquito de todo...
+## A bit of everything...
 
-*..en construcción..*
+*..building..*

@@ -1,6 +1,6 @@
 # Site navigation links
 
-- title: Research
+- title: Investigación
   url: /research/
   excerpt: 
   image: 
@@ -12,13 +12,13 @@
   image: 
 
 
-- title: More
+- title: Más
   url: /more/
   excerpt:
   image: 
 
 
-- title: Contact
+- title: Contacto
   url: /contact/
   excerpt:
   image: 

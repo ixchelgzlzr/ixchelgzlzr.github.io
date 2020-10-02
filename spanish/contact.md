@@ -1,14 +1,10 @@
 ---
 layout: media
-title: Contact
-permalink: /contact/
+title: Contacto
+permalink: /spanish/contact/
 image:
   feature: bryos.jpg
 ---
-
-Please don't hesitate to contact me: 
-
-//-//
 
 No dudes en contactarme:
 

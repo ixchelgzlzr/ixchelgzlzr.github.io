@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Curriculum vitae
-permalink: /cv/
+permalink: /spanish/cv/
 image:
   feature: haeckel_bryo.jpg
 ---

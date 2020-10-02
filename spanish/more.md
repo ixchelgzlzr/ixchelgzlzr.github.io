@@ -1,7 +1,7 @@
 ---
 layout: article
-title: More
-permalink: /more/
+title: Más
+permalink: /spanish/more/
 ads: false
 share: false
 image:
