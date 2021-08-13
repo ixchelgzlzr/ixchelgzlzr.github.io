@@ -1,7 +1,7 @@
 # Site navigation links
 
 - title: Investigación
-  url: /spanish/research/
+  url: /spanish/investigacion/
   excerpt: 
   image: 
 
@@ -13,13 +13,13 @@
 
 
 - title: Más
-  url: /spanish/more/
+  url: /spanish/mas/
   excerpt:
   image: 
 
 
 - title: Contacto
-  url: /spanish/contact/
+  url: /spanish/contacto/
   excerpt:
   image: 
 

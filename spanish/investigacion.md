@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Investigación
-permalink: /spanish/research/
+permalink: /spanish/investigacion/
 ads: false
 share: false
 image:

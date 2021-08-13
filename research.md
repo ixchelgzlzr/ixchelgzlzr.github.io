@@ -17,13 +17,13 @@ In this proyect, I am studying these questions for a complex thalloid liverwort 
 
 
 #### Total evidence dating of land plants
-*...will be updated soon..*
+*in progress*
 
 #### Geographic patterns of Mexican liverworts
-*...will be updated soon..*
+*in progress*
 
 #### Spatial phylogenetics of Baja California
-*...will be updated soon..*
+*in progress*
 
 ## Recent tools
 **Interactive map of liverwort collections in Mexico**

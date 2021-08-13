@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Más
-permalink: /spanish/more/
+permalink: /spanish/mas/
 ads: false
 share: false
 image:

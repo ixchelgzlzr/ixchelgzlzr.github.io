@@ -1,7 +1,7 @@
 ---
 layout: media
 title: Contacto
-permalink: /spanish/contact/
+permalink: /spanish/contacto/
 image:
   feature: bryos.jpg
 ---
