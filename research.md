@@ -20,7 +20,7 @@ In this proyect, I am studying these questions in _Asterella californica_ a comp
 
 #### Insights from the fossil record on early land plants evolution
 ![Baja](/images/phylogeny.png){: width="400"}{: style="float: left; margin-right: 2em;"}
-I am interested in the unique insight that the fossil record provide about the evolution of life. I am interested in understanding the impact that including the fossil record in our phylogenetic inferences. I am currently working on two simulations studies. (1) I want to know whether or not and to what extent including fossil terminals allows us to infer accurate phylogenetic relationships among extant taxa. And (2) I am working on sampling schemes of extant taxa that optimize our inferential power of deep divergences. I aim to use these methodological insigths to study the evolution of bryophyte relationships.
+I am interested in the unique insight that the fossil record provide about the evolution of life. I am interested in understanding the impact that including the fossil record in our phylogenetic inferences. I am currently working on two simulations studies. (1) I want to know whether or not and to what extent including fossil terminals allows us to infer accurate phylogenetic relationships among extant taxa. And (2) I am working on sampling schemes of extant taxa that optimize our inferential power of deep divergences. I aim to use these methodological insights to study the evolution of bryophyte relationships.
 
 ***
 

@@ -5,8 +5,9 @@ permalink: /contact/
 image:
   feature: bryos.jpg
 ---
+![Baja](/images/ixchel_sequoiadendron.jpeg){: width="400"}{: style="float: left; margin-right: 2em;"}
 
-Please don't hesitate to contact me:
+If you are interested in my reasearch, please don't hesitate to contact me:
 
 **ixchel_gonzalezrmz@berkeley.edu** 
 
