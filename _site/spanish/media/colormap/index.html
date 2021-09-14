@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MULTIDIMENSIONAL COLOR RAMPS IN R • Ixchel González-Ramírez</title>
+    <meta name="description" content="Take better advantage of 3D colorspace.">
+    <meta name="keywords" content="">
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="MULTIDIMENSIONAL COLOR RAMPS IN R">
+	<meta name="twitter:description" content="Take better advantage of 3D colorspace.">
+	
+	
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="/images/">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="MULTIDIMENSIONAL COLOR RAMPS IN R">
+	<meta property="og:description" content="Take better advantage of 3D colorspace.">
+	<meta property="og:url" content="/spanish/media/colormap/">
+	<meta property="og:site_name" content="Ixchel González-Ramírez">
+
+    <link rel="canonical" href="/spanish/media/colormap/">
+
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Ixchel González-Ramírez Atom Feed">
+    <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="/js/vendor/html5shiv.min.js"></script>
+      <script src="/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+
+	
+
+  <div class="inner-wrap">
+    <a href="/" class="site-title">Ixchel González-Ramírez</a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<li class="home"><a href="/">Ixchel González-Ramírez</a></li>
+	
+    
+    <li><a href="/research/" >Research</a></li>
+  
+    
+    <li><a href="/cv/" >CV</a></li>
+  
+    
+    <li><a href="/more/" >More</a></li>
+  
+    
+    <li><a href="/contact/" >Contact</a></li>
+  
+    
+    <li><a href="/spanish/index" >Español</a></li>
+  
+</ul>
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+    <!-- commenting this out to remove the garish navigation tool
+<nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Ixchel González-Ramírez <span>Table of Contents</span></h5>
+  <ul class="menu-item">
+    <li>
+      <a href="/research/">
+        
+        <div class="title">Research</div>
+        
+      </a>
+    </li><li>
+      <a href="/cv/">
+        
+        <div class="title">CV</div>
+        
+      </a>
+    </li><li>
+      <a href="/more/">
+        
+        <div class="title">More</div>
+        
+      </a>
+    </li><li>
+      <a href="/contact/">
+        
+        <div class="title">Contact</div>
+        
+      </a>
+    </li><li>
+      <a href="/spanish/index">
+        
+        <div class="title">Español</div>
+        
+      </a>
+    </li>
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+-->
+
+    <div id="page-wrapper">
+      <div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		
+
+		
+		
+		
+		<div class="page-title">
+			<h1>MULTIDIMENSIONAL COLOR RAMPS IN R</h1>
+		</div>
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p>RGB, HSV, JCh… colorspace is three dimensional. In data visualization color is generally treated one-dimensionally, however. The typical color ramp is a line through 3D colorspace that encodes a single numeric variable. But we can take better advantage of color’s inherent dimensionality, using it to encode two or three numeric variables at once.</p>
+
+<p><img src="/images/minority_vs_poverty.png" alt="Minority versus poverty" /></p>
+
+<p>In the above <a href="https://matthewkling.shinyapps.io/demographics_of_disaster/">visualization</a> (created as part of the <a href="http://ds421.berkeley.edu">DS421</a> NRT program) for example, a 2D color ramp on the lefthand panel facilitates simultaneous mapping of both poverty and race. Or in the chart below (created as part of the <a href="http://ucjeps.berkeley.edu/bryolab/CPPP/index.html">California Phylodiversity Project</a>), a 3D color mapping represents variation in the phylogenetic composition of plant communities across California (places with similar color have similar floristic communities; if it had a legend, it would be 3D point cloud filling RGB space).</p>
+
+<p><img src="/images/california_sorenson_phylo.jpg" alt="California community composition" /></p>
+
+<p>I made these charts, as I generally do, in R. Having failed to find an existing package that implements color mappings like this, I packaged up some functions of my own in a library called <a href="https://github.com/matthewkling/colormap">colormap</a>. You can access it via <code class="language-plaintext highlighter-rouge">devtools::install_github("matthewkling/colormap")</code>.</p>
+
+<p>The package includes two functions that map data to a 2D colorspace, and one for 3D colorspace. Each takes a table of input data as the only required parameter, and returns a vector of color values corresponding to every row of the table. These colors can then be fed to your plots, whether you’re using base graphics, ggplot2, rgl, etc.</p>
+
+<p><img src="/images/colorado_precip.png" alt="Colorado climate" /></p>
+
+<h4 id="a-brief-tutorial">A brief tutorial</h4>
+
+<p>Let’s reproduce the map above, which shows precipitation seasonality in Colorado by comparing precipitation in the wettest vs. driest months. In this plot, green and black places have average seasonality and are either wet or dry, respectively. Yellow places are highly seasonal with rain or snow concentrated in the wettest season, while blue places have the flattest, most aseasonal precipitation profiles. This example uses <code class="language-plaintext highlighter-rouge">colors2d</code>, in which a palette is defined by specifying 4 corner colors. Here’s code to create this chart:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">devtools</span><span class="o">::</span><span class="n">install_github</span><span class="p">(</span><span class="s2">"matthewkling/colormap"</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">colormap</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">raster</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># get some climate data</span><span class="w">
+</span><span class="n">clim</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">getData</span><span class="p">(</span><span class="s1">'worldclim'</span><span class="p">,</span><span class="w"> </span><span class="n">var</span><span class="o">=</span><span class="s1">'bio'</span><span class="p">,</span><span class="w"> </span><span class="n">res</span><span class="o">=</span><span class="m">2.5</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># select precip of the wettest and driest months</span><span class="w">
+</span><span class="n">clim</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">subset</span><span class="p">(</span><span class="n">clim</span><span class="p">,</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="s2">"bio13"</span><span class="p">,</span><span class="w"> </span><span class="s2">"bio14"</span><span class="p">))</span><span class="w">
+
+</span><span class="c1"># crop to colorado</span><span class="w">
+</span><span class="n">clim</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">crop</span><span class="p">(</span><span class="n">clim</span><span class="p">,</span><span class="w"> </span><span class="n">extent</span><span class="p">(</span><span class="m">-109</span><span class="p">,</span><span class="w"> </span><span class="m">-102</span><span class="p">,</span><span class="w"> </span><span class="m">37</span><span class="p">,</span><span class="w"> </span><span class="m">41</span><span class="p">))</span><span class="w">
+
+</span><span class="c1"># convert to long-format matrix</span><span class="w">
+</span><span class="n">v</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">values</span><span class="p">(</span><span class="n">clim</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># map color to the climate variables</span><span class="w">
+</span><span class="n">colors</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">colors2d</span><span class="p">(</span><span class="n">v</span><span class="p">,</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="s2">"green"</span><span class="p">,</span><span class="w"> </span><span class="s2">"yellow"</span><span class="p">,</span><span class="w"> </span><span class="s2">"black"</span><span class="p">,</span><span class="w"> </span><span class="s2">"blue"</span><span class="p">))</span><span class="w">
+
+</span><span class="c1"># plot the data in climate space</span><span class="w">
+</span><span class="n">par</span><span class="p">(</span><span class="n">mfrow</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">))</span><span class="w">
+</span><span class="n">plot</span><span class="p">(</span><span class="n">v</span><span class="p">,</span><span class="w"> </span><span class="n">col</span><span class="o">=</span><span class="n">colors</span><span class="p">,</span><span class="w"> </span><span class="n">pch</span><span class="o">=</span><span class="m">16</span><span class="p">,</span><span class="w"> 
+     </span><span class="n">xlab</span><span class="o">=</span><span class="s2">"precip of wettest month (mm)"</span><span class="p">,</span><span class="w"> 
+     </span><span class="n">ylab</span><span class="o">=</span><span class="s2">"precip of driest month (mm)"</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># and in geographic space</span><span class="w">
+</span><span class="n">col</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">clim</span><span class="p">[[</span><span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">)]]</span><span class="w">
+</span><span class="n">col</span><span class="p">[]</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">t</span><span class="p">(</span><span class="n">col2rgb</span><span class="p">(</span><span class="n">colors</span><span class="p">))</span><span class="w">
+</span><span class="n">plotRGB</span><span class="p">(</span><span class="n">col</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="on-perceptual-uniformity">On perceptual uniformity</h4>
+
+<p>This treatment of colorspace leaves a couple things to be desired. First off there’s colorblindness, which shrinks and distorts visible colorspace. And then there’s <a href="https://www.youtube.com/watch?v=xAoljeRJ3lU">perceptual non-uniformity</a>, i.e. the notion that because humans’ ability to discern color differences varies across RGB colorspace, using color ramps that are linear in RGB space biases user interpretation of data visualizations. Both these issues prevent viewers from correctly perceiving the true patterns in the data.</p>
+
+<p>In R, <a href="https://cran.r-project.org/web/packages/viridis/index.html">viridis</a> overcomes both these problems for one-dimensional color ramps. That should be doable in 2D and 3D color mappings as well, building on tools like <a href="https://pypi.python.org/pypi/colorspacious/">colorspacious</a>… I’d like to look into implementing that at some point.</p>
+
+
+				<hr />
+				<footer class="page-footer">
+					
+					<div class="page-meta">
+	<p>Updated <time datetime="2016-07-03T00:00:00Z" itemprop="datePublished">July 03, 2016</time></p>
+</div><!-- /.page-meta -->
+				</footer><!-- /.footer -->
+				<aside>
+					
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- /.wrap -->
+</div><!-- /#main -->
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="/" >Home</a></li>
+		
+      
+			<li><a href="https://github.com/ixchelgzlzr" target="_blank">Github</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2021 <a href="">Ixchel González-Ramírez</a> powered by <a href="http://jekyllrb.com">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/">Skinny Bones</a>.</p>
+</footer>
+    </div>
+
+    <script src="/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77357249-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ANIMATING CLIMATE CHANGE • Ixchel González-Ramírez</title>
+    <meta name="description" content="How will climate types migrate across space?">
+    <meta name="keywords" content="">
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="ANIMATING CLIMATE CHANGE">
+	<meta name="twitter:description" content="How will climate types migrate across space?">
+	
+	
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="/images/">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="ANIMATING CLIMATE CHANGE">
+	<meta property="og:description" content="How will climate types migrate across space?">
+	<meta property="og:url" content="/spanish/media/analogs/">
+	<meta property="og:site_name" content="Ixchel González-Ramírez">
+
+    <link rel="canonical" href="/spanish/media/analogs/">
+
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Ixchel González-Ramírez Atom Feed">
+    <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="/js/vendor/html5shiv.min.js"></script>
+      <script src="/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+
+	
+
+  <div class="inner-wrap">
+    <a href="/" class="site-title">Ixchel González-Ramírez</a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<li class="home"><a href="/">Ixchel González-Ramírez</a></li>
+	
+    
+    <li><a href="/research/" >Research</a></li>
+  
+    
+    <li><a href="/cv/" >CV</a></li>
+  
+    
+    <li><a href="/more/" >More</a></li>
+  
+    
+    <li><a href="/contact/" >Contact</a></li>
+  
+    
+    <li><a href="/spanish/index" >Español</a></li>
+  
+</ul>
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+    <!-- commenting this out to remove the garish navigation tool
+<nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Ixchel González-Ramírez <span>Table of Contents</span></h5>
+  <ul class="menu-item">
+    <li>
+      <a href="/research/">
+        
+        <div class="title">Research</div>
+        
+      </a>
+    </li><li>
+      <a href="/cv/">
+        
+        <div class="title">CV</div>
+        
+      </a>
+    </li><li>
+      <a href="/more/">
+        
+        <div class="title">More</div>
+        
+      </a>
+    </li><li>
+      <a href="/contact/">
+        
+        <div class="title">Contact</div>
+        
+      </a>
+    </li><li>
+      <a href="/spanish/index">
+        
+        <div class="title">Español</div>
+        
+      </a>
+    </li>
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+-->
+
+    <div id="page-wrapper">
+      <div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		
+
+		
+		
+		
+		<div class="page-title">
+			<h1>ANIMATING CLIMATE CHANGE</h1>
+		</div>
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+				<iframe src="https://player.vimeo.com/video/156115210?autoplay=1&amp;loop=1&amp;title=0&amp;portrait=0" width="800" height="501" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+<p><br /></p>
+
+<h4 id="migrating-climate-analogs">Migrating climate analogs</h4>
+
+<p>The high dimensionality of climate change data makes it challenging to understand and communicate. I took a stab at a new approach the other day with this little animation depicting a century of projected climate change. Each color represents the climate signature of a distinctive combination of 27 biologically-relevant climate variables, which lets us see the predicted geographic movement of these climates over time.</p>
+
+<p>Different types of change are occurring in different regions. Overland <a href="http://www.nature.com/nature/journal/v462/n7276/full/nature08649.html">climate velocities</a> are highest across the Midwest and Great Plains. The Gulf coast and the central Rockies have contracting climates that are projected to disappear by mid-century. In places like the northern Rockies and the Southeast, we see the emergence of <a href="http://www.pnas.org/content/104/14/5738.abstract">novel climates</a> representing combinations of climate variables with no historical analog.</p>
+
+<p>For me, this helps internalize the contemporary climate change driving the ecological processes I study. In the face of this change, the biota has three choices: adapt in situ to novel conditions, migrate to remain within their baseline climate, or face local extripation.</p>
+
+<h4 id="nerd-notes">Nerd notes</h4>
+
+<p>I made this video in R using the ‘animation’ package. Source climate data are the mean predictions across an ensemble of CMIP5 global circulation models run under the RCP 8.5 emissions scenario. Data are 30-year normals from the ClimateNA dataset for the 1961-1990 era and the 2080s era. I linearlly interpolated climate signatures between these two periods to produce a smooth animation.</p>
+
+<p>The challenge here was representing high-dimensional data in 2D. The approach I took was to reduce the climate dimensions to a single color for each pixel, while leaving space and time in their native forms. I first used non-metric multidimensional scaling (NMDS) to embed the 27 climate variables into 3 dimensions, which I then mapped to RGB colorspace such that color similarity represents climatic similarity. This mapping could take many forms, but I rank-transformed the RGB values to increase contrast, produced a menu of possible palettes (below), and picked one with a nice gestalt.</p>
+
+<p><img src="/images/analogs_palettes.jpg" alt="palettes" /></p>
+
+<p>There were a lot of subjective decisions in this process whose effects would be interesting to explore. The choice of climate variables, dimension reduction algorithm, RGB rescaling method, and number of clusters all influence the look and feel of the results. The code is posted on <a href="https://github.com/matthewkling/analog_animation">github</a>. At some point I’d like to extend this to a global extent using a different base dataset like Worldclim, and experiment with higher-res animations of smaller regions.</p>
+
+
+				<hr />
+				<footer class="page-footer">
+					
+					<div class="page-meta">
+	<p>Updated <time datetime="2016-01-19T00:00:00Z" itemprop="datePublished">January 19, 2016</time></p>
+</div><!-- /.page-meta -->
+				</footer><!-- /.footer -->
+				<aside>
+					
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- /.wrap -->
+</div><!-- /#main -->
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="/" >Home</a></li>
+		
+      
+			<li><a href="https://github.com/ixchelgzlzr" target="_blank">Github</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2021 <a href="">Ixchel González-Ramírez</a> powered by <a href="http://jekyllrb.com">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/">Skinny Bones</a>.</p>
+</footer>
+    </div>
+
+    <script src="/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77357249-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+
+</html>

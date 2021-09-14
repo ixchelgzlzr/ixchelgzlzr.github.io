@@ -7,28 +7,41 @@ share: false
 image:
   feature: Liverworts.png
 ---
-## Current Research Projects
-
-#### Genetic and morphological diversity of *Asterella californica* across its full range 
-Liverworts are small plants that are rarely more than one inch long. Yet, they usually occur in very large areas, often including more than one continent. At the same time, the fossil record shows that some liverwort lineages have remained morphologically similar since seveal million years ago. Are the disribution areas of liverworts as large as we think? Or are liverwort populations functionally isolated and their lineages evolving independently without evident effects on their morphology?
-
-In this proyect, I am studying these questions for a complex thalloid liverwort that occurs along the West coast of Northamerica: *Asterella californica*. This work has been funded by the [California Conservation Genomics Project](https://sites.lifesci.ucla.edu/eeb-CCGP/), as part of a multidisciplinary conservation effort.
+Welcome to my research page! Below I outline some of the projects I am currenty working on:
 
 
+#### Genetic and morphological diversity of *Asterella californica* across its full geographic range 
 
-#### Total evidence dating of land plants
-*in progress*
+![foto de Asterella](/images/asterella.jpg){: width="400"}{: style="float: left; margin-right: 2em;"}
+Liverworts are small plants that are rarely more than one inch long. Yet, they usually occur in very large areas. Are liverworts capable of maintaining continuous gene flow through the geographical space? How different are their populations? Have they evolved adaptations to the different environments they inhabit?
+In this proyect, I am studying these questions in _Asterella californica_ a complex thalloid liverwort that occurs along the West coast of Northamerica. This work is funded by the [**California Conservation Genomics Project**](https://www.ccgproject.org), and is part of a multidisciplinary conservation effort.
+
+***
+
+#### Insights from the fossil record on early land plants evolution
+![Baja](/images/phylogeny.png){: width="400"}{: style="float: left; margin-right: 2em;"}
+I am interested in the unique insight that the fossil record provide about the evolution of life. I am interested in understanding the impact that including the fossil record in our phylogenetic inferences. I am currently working on two simulations studies. (1) I want to know whether or not and to what extent including fossil terminals allows us to infer accurate phylogenetic relationships among extant taxa. And (2) I am working on sampling schemes of extant taxa that optimize our inferential power of deep divergences. I aim to use these methodological insigths to study the evolution of bryophyte relationships.
+
+***
+
+#### Spatial phylogenetics of the vascular plants of Baja California
+![Baja](/images/baja.png){: width="400"}{: style="float: left; margin-right: 2em;"}
+
+I am interested in the intersection of phylogenetics and biogeography and its implications for conservation. I am tehrefore interested in the group of methods known as spatial phylogenetics as I think they contribute to better informed conservation decisions but can also help to disentangle geographical patterns that result from shared historical events.  
+This is a highly collaborative project with several researchers in San Diego State University and CONABIO. We are using an extraordinary database of the vascular flora of Baja California to study the patterns of its phylogenetic diversity. This project will contribute to our understanding of the Baja flora evolution, and will offer useful insight for conservation purposes.
+
+***
 
 #### Geographic patterns of Mexican liverworts
-*in progress*
+![Baja](/images/poster_liverworts.png){: width="500"}{: style="float: left; margin-right: 2em;"}
 
-#### Spatial phylogenetics of Baja California
-*in progress*
+Liverworts are a group of inconspicous but fascinating plants. They have a set of characteristics that ecologically differentiate them from "vascular plants" and make it adventurous to extrapolate our knowledge of vascular plant distribution to this group. Unfortunately, our understanding of the systematics and diversity of this group is requires a lot of work, and any work addressing the diversity patterns of this group will be incomplete. Even if incomplete, early efforts on understanding the patterns in the geography and evolution of this group can help us focus our efforts in advancing the study of this group. In this project, I am using phylogenetic and niche modelling tools on herbarium generated datasets to take a glimpse on the diversity of Mexican liverworts. 
+Take a look of this [**map**](http://rpubs.com/Ixchel/513484), where you can explore the liverwort collections that existed until 2019 for Mexico.
 
-## Recent tools
-**Interactive map of liverwort collections in Mexico**
 
-In this [map](http://rpubs.com/Ixchel/513484) you can explore the collections that exist for Mexico 
+
+
+
 
 <!-- dejo comentadas estas tiles en caso de que despues sean utiles
 <div class="tiles">

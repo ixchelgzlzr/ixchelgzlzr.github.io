@@ -1,7 +1,10 @@
-# Skinny Bones Gemfile
-source "https://rubygems.org"
+gem "minimal-mistakes-jekyll"
 
-gem "jekyll"
-gem "jekyll-sitemap"
-gem "jekyll-gist"
-gem "jekyll-feed"
+
+# Skinny Bones Gemfile
+#source "https://rubygems.org"
+
+#gem "jekyll"
+#gem "jekyll-sitemap"
+#gem "jekyll-gist"
+#gem "jekyll-feed"

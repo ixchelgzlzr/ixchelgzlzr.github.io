@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>THE SHAPE OF THE SEASONS • Ixchel González-Ramírez</title>
+    <meta name="description" content="Exploring climate seasonality across regions and decades">
+    <meta name="keywords" content="">
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="THE SHAPE OF THE SEASONS">
+	<meta name="twitter:description" content="Exploring climate seasonality across regions and decades">
+	
+	
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="/images/">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="THE SHAPE OF THE SEASONS">
+	<meta property="og:description" content="Exploring climate seasonality across regions and decades">
+	<meta property="og:url" content="/spanish/media/shapeshift/">
+	<meta property="og:site_name" content="Ixchel González-Ramírez">
+
+    <link rel="canonical" href="/spanish/media/shapeshift/">
+
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Ixchel González-Ramírez Atom Feed">
+    <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="/js/vendor/html5shiv.min.js"></script>
+      <script src="/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+
+	
+
+  <div class="inner-wrap">
+    <a href="/" class="site-title">Ixchel González-Ramírez</a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<li class="home"><a href="/">Ixchel González-Ramírez</a></li>
+	
+    
+    <li><a href="/research/" >Research</a></li>
+  
+    
+    <li><a href="/cv/" >CV</a></li>
+  
+    
+    <li><a href="/more/" >More</a></li>
+  
+    
+    <li><a href="/contact/" >Contact</a></li>
+  
+    
+    <li><a href="/spanish/index" >Español</a></li>
+  
+</ul>
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+    <!-- commenting this out to remove the garish navigation tool
+<nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Ixchel González-Ramírez <span>Table of Contents</span></h5>
+  <ul class="menu-item">
+    <li>
+      <a href="/research/">
+        
+        <div class="title">Research</div>
+        
+      </a>
+    </li><li>
+      <a href="/cv/">
+        
+        <div class="title">CV</div>
+        
+      </a>
+    </li><li>
+      <a href="/more/">
+        
+        <div class="title">More</div>
+        
+      </a>
+    </li><li>
+      <a href="/contact/">
+        
+        <div class="title">Contact</div>
+        
+      </a>
+    </li><li>
+      <a href="/spanish/index">
+        
+        <div class="title">Español</div>
+        
+      </a>
+    </li>
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+-->
+
+    <div id="page-wrapper">
+      <div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		
+
+		
+		
+		
+		<div class="page-title">
+			<h1>THE SHAPE OF THE SEASONS</h1>
+		</div>
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p><a href="/assets/shapeshift.pdf"><img src="/images/shapeshift.png" alt="Seasons shifting shape" /></a></p>
+
+<p>We’ve all seen plenty of maps and graphs that show how temperature or precipitation varies across space, or across seasons, or across decades of climate change. In this visualization I took a stab at bringing all those pieces together in one chart. (My philosophy: no such thing as TMI.) Click <a href="/assets/shapeshift.pdf">here</a> for a zoomable pdf.</p>
+
+<p>The tiles in this graphic show the seasonal climate cycles of 48 US cities, arranged in a loosely geographic array. Each city’s loop depecicts the daily climate progression around the calendar year, with temperature on the x axis and precipitation on the y axis. Color indicates the time of year. Recent climate change can be seen by comparing the bright path in the foreground (average daily climate from 2000–2015) to the dim path in the background (1980–1999); the lines spanning the two circuits show climate change for each of the 365 unique days of the year. The chart summarizes 1.6 million historic daily temperature and precipitation values from <a href="https://daymet.ornl.gov">DAYMET</a>. Thanks to DAYMET’s API and the beautiful versatility of ggplot2, I was able to <a href="https://github.com/matthewkling/shapeshifting">script the entire pipeline</a> from data acquisition through final pdf assembly.</p>
+
+<p><img src="/images/shapeshift_excerpt.png" alt="Excerpt" /></p>
+
+<p>Some pretty interesting patterns jump out from this perspective. Most obivously, seasonal relationships between temperature and precipitation are super different across the US. The west coast has tight negative correlations between seasonal temperature and precipitation, i.e. wet winters and dry summers; southeastern coastal climate is precisely the opposite, with dry winters and wet summers. In other locations where climate doesn’t fall along a straight line, seasonal patterns are more complex. Places like Indianapolis with open circles have different climates in spring versus fall. Smiley or frowny graphs are places two distinct precipitation peaks during the year (e.g. during summer and winter in Flagstaff, or spring and fall in Dallas). A single color spread over a large stretch of the circuit represents a rapid seasonal shift—check out the abrupt onset of the monsoon rains in the Southwest.</p>
+
+<p>Longer term climate trends emerge with a bit more study. Horizontal shifts show changing temperatures, while vertical shifts show changing precipitation. All that downward blue and purple movement on the west coast: the recent drought. The rightward creep of many seasons in many locations, with hardly any leftward motion: anthropogenic climate change getting off the starting blocks. Lots more vertical than horizontal movement overall: a sign of the large year-to-year variability in precipitation relative to temperature.</p>
+
+				<hr />
+				<footer class="page-footer">
+					
+					<div class="page-meta">
+	<p>Updated <time datetime="2017-04-01T00:00:00Z" itemprop="datePublished">April 01, 2017</time></p>
+</div><!-- /.page-meta -->
+				</footer><!-- /.footer -->
+				<aside>
+					
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- /.wrap -->
+</div><!-- /#main -->
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="/" >Home</a></li>
+		
+      
+			<li><a href="https://github.com/ixchelgzlzr" target="_blank">Github</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2021 <a href="">Ixchel González-Ramírez</a> powered by <a href="http://jekyllrb.com">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/">Skinny Bones</a>.</p>
+</footer>
+    </div>
+
+    <script src="/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77357249-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+
+</html>
