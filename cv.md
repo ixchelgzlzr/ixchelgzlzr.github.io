@@ -42,8 +42,10 @@ study. Annals of Botany, 123(2), pp. 311-325. doi: 10.1093/aob/mcy127.
 
 # Fellowships, Awards & Grants
 
+* 2022 [Plant Science Research Fellow](https://www.osgf.org/blog/2021/12/20/oak-spring-garden-foundation-announces-2022-fellows), Oak Spring Garden Foundation.
+* 2021 IB Sci-Comm mini-grant, Integrative Biology, University of California, Berkeley
 * 2021 Outstanding Graduate Student Instructor Award, University of California, Berkeley.
-* California Conservation Genomics Project award, funding the project: Genetic diversity patterns of an endemic liverwort: *Asterella californica*. 2020 – 2022.
+* [California Conservation Genomics Project award](https://www.ccgproject.org), funding the project: Genetic diversity patterns of an endemic liverwort: *Asterella californica*. 2020 – 2022.
 * UC-MEXUS – CONACyT Doctoral fellowship, to study a PhD in the Department of Integrative Biology, University of
 California, Berkeley, 2018 – 2023.
 * UNAM PASD award, to attend the 4th International Palaeontological Congress, 2014
@@ -76,7 +78,7 @@ California, Berkeley, 2018 – 2023.
 
 # Societies and services
 
-**Member of:** Sociedad Botánica de México (SBM), Botanical Society of América (BSA), Society for the Study of Evolution (SSE)
+**Member of:** Sociedad Botánica de México (SBM), Botanical Society of América (BSA), Society for the Study of Evolution (SSE), American Society of Plant Taxonomists (ASPT)
 
 **Peer reviews for:** Ecological Genetics and Genomics, Molecular Genetics and Evolution, Paleontología Mexicana.
 
