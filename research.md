@@ -18,7 +18,7 @@ In this proyect, I am studying these questions in _Calsterella californica_ a co
 
 ***
 
-### Modeling the range evolution of liverworts in Aytoniaceae.
+#### Modeling the range evolution of liverworts in Aytoniaceae.
 
 ![range](/images/clado_ana_eve.jpg){: width="400"}{: style="float: left; margin-right: 2em;"}
 Studying the range evolution of widespread lineages is a challenging task because it requires to account for an exponentially large number of states (thus increasing the computational burden). Similarly, the older a lineage is, the more geological changes they have experienced. As Earth changes, so do the probability of biogeographic events like dispersal. To study the biogeographic history of Aytoniaceae, a lineage of liverowrts that arose in the Cretaceous and has species with a worldwide range, I developped and implemented in RevBayes the Paleogeogrpahically Aware (PAW) GeoSSE + J model of range evolution. Using this model results in parameter estimated that make biological sense and confirm our suspicion that, even for vagile spore-dispersed organisms, distance matters! But when it comes to reconstructing the biogeographic history of this group, we fin a lot of uncertainty in most nodes.
