@@ -1,5 +1,5 @@
 gem "minimal-mistakes-jekyll"
-
+source "https://rubygems.org"
 
 # Skinny Bones Gemfile
 #source "https://rubygems.org"
