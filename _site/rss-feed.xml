@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Ixchel González Ramírez</title>
+		<description>My academic webpage</description>
+		<link></link>
+		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Liverwort scales morphology, function, and evolution</title>
+				
+				
+					<description>&lt;p&gt;Complex thalloid liverworts occurr are cosmopolitan plants. Although they are commonly thought to occurr in wet environments, they also occurr in seasonal and dry environments. While doing fieldwork across California, I became interested in the “rolling up” mechanism that some xerophytic complex thalloid liverworts display.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 05 Dec 2024 00:00:00 -0800</pubDate>
+				<link>http://localhost:4000/liverwort-scales</link>
+				<guid isPermaLink="true">http://localhost:4000/liverwort-scales</guid>
+			</item>
+		
+			<item>
+				<title>Spatial phylogenetics: how branches are distributed in the geographic space</title>
+				
+				
+					<description>&lt;p&gt;Spatial phylogenetics is an approach that studies the distribution of lineages across space. For this, we draw on the available genetic and collection data to 1) build phylogenies, and 2) characterize de distribution of taxa, to then study what lineages are represented across geographic space.&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 04 Dec 2024 00:00:00 -0800</pubDate>
+				<link>http://localhost:4000/spa_phy</link>
+				<guid isPermaLink="true">http://localhost:4000/spa_phy</guid>
+			</item>
+		
+			<item>
+				<title>PAw GeoSSE: a paleogreographically aware GeoSSE model</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Tue, 03 Dec 2024 00:00:00 -0800</pubDate>
+				<link>http://localhost:4000/paw</link>
+				<guid isPermaLink="true">http://localhost:4000/paw</guid>
+			</item>
+		
+			<item>
+				<title>Time divergence estimation using a FBD model and treating fossils as tips</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Mon, 02 Dec 2024 00:00:00 -0800</pubDate>
+				<link>http://localhost:4000/TED</link>
+				<guid isPermaLink="true">http://localhost:4000/TED</guid>
+			</item>
+		
+			<item>
+				<title>Calasterella californica genomics to understand the genetic diversity and population structure of liverworts</title>
+				
+				
+					<description>&lt;p&gt;Hi there! I’m Paul. I’m a physics major turned programmer. Ever since I first learned how to program while taking a scientific computing for physics course, I have pursued programming as a passion, and as a career. Check out &lt;a href=&quot;https://www.lenpaul.com/&quot;&gt;my personal website&lt;/a&gt; for more information on my other projects (including more Jekyll themes!), as well as some of my writing.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 01 Dec 2024 00:00:00 -0800</pubDate>
+				<link>http://localhost:4000/Ccal</link>
+				<guid isPermaLink="true">http://localhost:4000/Ccal</guid>
+			</item>
+		
+	</channel>
+</rss>
