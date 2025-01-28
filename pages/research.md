@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Sample Posts
-category: sample
-permalink: /sample-posts
+category: research
+permalink: /research
 ---

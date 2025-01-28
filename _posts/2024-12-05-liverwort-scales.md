@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Liverwort scales morphology, function, and evolution"
+title: "Morphology, function, and evolution of liverwort scales"
 author: 
 categories: research
 tags: 
-image: scales.png
+image: dry_liver.png
 ---
 
 Complex thalloid liverworts occurr are cosmopolitan plants. Although they are commonly thought to occurr in wet environments, they also occurr in seasonal and dry environments. While doing fieldwork across California, I became interested in the "rolling up" mechanism that some xerophytic complex thalloid liverworts display.
