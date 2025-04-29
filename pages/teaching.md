@@ -23,4 +23,10 @@ In collaboration with Rocío Deanna and Stacey Smith, we developped a workshop t
 Tuve la gran oportunidad de trabajar con Rosana Zenil-Ferguson y Santiago Ramírez-Barahona en un taller de filogenética bayesiana usando RevBayes impartido totalmente en Español. Este taller se impartió durante tres días en Enero del 2025 en el Instituto de Biología, UNAM.
 
 
+**Spatial phylogenetics tutorial (Available in English and Spanish)**
 
+[Spatial Phylogenetics in R using ‘phylospatial’](/pages/tutorial.html)
+
+[Filogenética espacial en R con el paquete 'phylospatial'’](/pages/tutorial_spanish.html)
+
+In this tutorial available in Spanish and English we go over the basics of performing spatial phylogenetics analyses with the R package `phylospatial`.
