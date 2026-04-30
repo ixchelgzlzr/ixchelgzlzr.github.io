@@ -1,0 +1,23 @@
+# Links listed below will be included in the Spanish navbar.
+
+- text: Inicio
+  href: /es/
+- text: Investigación
+  href: /es/investigacion/
+- text: Personas
+  href: /es/personas/
+- text: Publicaciones
+  href: /es/publicaciones/
+- text: Recursos
+  menu:
+  - text: Enseñanza
+    href: /es/recursos/ensenanza/
+  - text: Genoma de Calasterella
+    href: /es/recursos/genoma-ccal/
+  - text: Código
+    href: /es/recursos/codigo/
+- text: Noticias
+  href: /es/noticias/
+- text: GitHub
+  href: https://github.com/ixchelgzlzr
+  new_window: true

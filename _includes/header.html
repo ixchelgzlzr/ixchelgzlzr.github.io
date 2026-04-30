@@ -1,24 +1,42 @@
-<header class="site-header">
-  <h3 class="site-title">
-    <a href="{{ site.github.url }}/">{{ site.title }}</a>
-  </h3>
-  <nav class="menu-list">
-    {% for item in site.data.settings.menu %}
-      <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
-    {% endfor %}
-    {% for item in site.data.settings.social %}
-      <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
-    {% endfor %}
-  </nav>
-  <div class="dropdown">
-    <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
-    <div class="dropdown-content">
-      {% for item in site.data.settings.menu %}
-        <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
-      {% endfor %}
-      {% for item in site.data.settings.social %}
-        <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
-      {% endfor %}
+{% comment %}background is defined in head.html{% endcomment %}
+{% if background %}
+  <header class="header bg-image{% if page.layout == 'home' %} home{% endif %}" style="background-image: url('{{ background | relative_url }}')">
+{% else %}
+  <header class="header bg-no-image{% if page.layout == 'home' %} home{% endif %}">
+{% endif %}
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 position-relative mx-auto">
+          <h1{% if page.layout == 'home' %} class="home"{% endif %}>{{ page.title }}</h1>
+          
+          <div class="lead">{{ page.description | markdownify }}</div>
+          
+          {% if page.collection == 'posts' %}
+            <p class="meta">
+              <time>{{ page.date | date: '%B %d, %Y' }}</time>
+              {% if page.author or page.authors %}
+                &bull; {{ page.author | join: ', ' }}{{ page.authors | join: ', ' }}
+              {% endif %}
+            </p>
+          {% endif %}
+
+          <div class="tags">
+            {% if page.collection == 'posts' and page.tags and site.archive_permalink %}
+              {% for tag in page.tags %}
+              <a class="badge{% if site.rounded_corners != false %} rounded-pill{% endif %}" href="{{ site.archive_permalink | relative_url }}?tag={{ tag | url_encode }}">{{ tag }}</a>
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</header>
+    {% if page.background.img and page.background.by %}
+      <div class="caption d-print-none">
+        {% if page.background.href %}
+          Image by <a href="{{ page.background.href }}">{{ page.background.by }}</a>
+        {% else %}
+          Image by {{ page.background.by }}
+        {% endif %}
+      </div>
+    {% endif %}
+  </header>

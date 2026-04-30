@@ -1,6 +1,10 @@
 ---
-layout: category
+layout: archive
 title: News
-category: news
-permalink: /news
+description: 
+background:
+  img: assets/theme/images/leafy_2.png
+permalink: /news/
+lang: en
+alt: /es/noticias/
 ---

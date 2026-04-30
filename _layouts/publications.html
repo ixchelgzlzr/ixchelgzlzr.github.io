@@ -1,0 +1,65 @@
+---
+layout: default
+description: Template for a publication list with images.
+---
+
+{{ content }}
+
+{% assign publications = site.data.publications | sort: "year" | reverse %}
+
+{% if publications %}
+  <div class="publication-list">
+    {% for paper in publications %}
+      <article class="publication-item">
+        <div class="publication-image">
+          {% if paper.image %}
+            <img src="{{ paper.image | relative_url }}" alt="{{ paper.title | strip_html }}">
+          {% endif %}
+        </div>
+
+        <div class="publication-body">
+          <h2>{{ paper.title | markdownify | remove: "<p>" | remove: "</p>" }}</h2>
+
+          {% if paper.authors %}
+            {% assign authors = paper.authors | replace: "Gonzalez-Ramirez, Ixchel S.", "<strong>Gonzalez-Ramirez, Ixchel S.</strong>" %}
+            <p class="publication-authors">{{ authors }}</p>
+          {% endif %}
+
+          <p class="publication-meta">
+            {% if paper.journal %}<span>{{ paper.journal }}</span>{% endif %}
+            {% if paper.year %}<span>{{ paper.year }}</span>{% endif %}
+          </p>
+
+          {% if paper.description %}
+            <div class="publication-description">
+              {{ paper.description | markdownify }}
+            </div>
+          {% endif %}
+
+          {% if paper.tags %}
+            <div class="publication-tags">
+              {% for tag in paper.tags %}
+                <span>{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          <div class="publication-links">
+            {% if paper.url %}
+              <a href="{{ paper.url }}">{% if page.lang == 'es' %}Artículo{% else %}Paper{% endif %}</a>
+            {% endif %}
+            {% if paper.doi %}
+              <a href="{{ paper.doi }}">DOI</a>
+            {% endif %}
+            {% if paper.pdf %}
+              <a href="{{ paper.pdf | relative_url }}">PDF</a>
+            {% endif %}
+            {% if paper.code %}
+              <a href="{{ paper.code }}">{% if page.lang == 'es' %}Código{% else %}Code{% endif %}</a>
+            {% endif %}
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+{% endif %}

@@ -1,0 +1,89 @@
+- title: "Late Cretaceous origins for major nightshade lineages from total-evidence timetree analysis"
+  authors: "Gonzalez-Ramirez, Ixchel S.; Deanna, Rocio; Smith, Stacey D."
+  year: 2026
+  journal: "Annals of Botany"
+  volume:
+  number:
+  pages: "mcag011"
+  description: We implement a bayesian total evidence dating analysis to infer the divergence times of Solanaceae. The use of this integrative model allowed us to simultaneously explore fossil position and infer divergence times while accounting for topological uncertainty. 
+  image: assets/theme/images/papers/solanaceae.jpg
+  url: https://academic.oup.com/jhered/article/116/3/389/7879539?guestAccessKey=
+  doi: https://doi.org/10.1093/jhered/esae065
+  pdf:
+  code:
+  tags:
+    - nightshades
+    - timetree
+    - total evidence dating
+
+- title: "A genome assembly for the California endemic liverwort *Calasterella californica*"
+  authors: "Gonzalez-Ramirez, Ixchel S.; Escalona, Merly; Miller, Courtney; Chumchim, Noravit; Marimuthu, Mohan P.A.; Nguyen, Oanh; Song, Michael J.; Mishler, Brent D."
+  year: 2025
+  journal: "Journal of Heredity"
+  volume: "116"
+  number: "3"
+  pages: "389--396"
+  description: Funded by the [**California Conservation Genomics Project**](https://www.ccgproject.org), we assembled de novo the genome of Calasterella californica, a West Coast endemic and xerophytic liverwort.
+  image: assets/theme/images/papers/genome.png
+  url: https://academic.oup.com/jhered/article/116/3/389/7879539?guestAccessKey=
+  doi: https://doi.org/10.1093/jhered/esae065
+  pdf:
+  code:
+  tags:
+    - genome assembly
+    - liverworts
+    - Calasterella
+
+- title: "Typification of *Fimbraria californica* (*Calasterella californica*, Aytoniaceae)"
+  authors: "Gonzalez-Ramirez, Ixchel S.; Long, David G.; Briscoe, Laura; Mishler, Brent D."
+  year: 2025
+  journal: "Madroño"
+  volume: "72"
+  number: "1"
+  pages: "37--39"
+  description: We clarify the type specimen of *Calasterella californica*. This involved clarifying a previous lectotypification by Evans, and designing an epitype from a recently collected specimen with genetic information available.  
+  image: assets/theme/images/papers/type.png
+  url: https://bioone.org/journals/madroño/volume-72/issue-1/0024-9637-72.1.37/TYPIFICATION-OF-FIMBRARIA-CALIFORNICA-CALASTERELLA-CALIFORNICA-AYTONIACEAE/10.3120/0024-9637-72.1.37.short
+  doi: https://doi.org/10.3120/0024-9637-72.1.37
+  pdf:
+  code:
+  tags:
+    - taxonomy
+    - typification
+    - Calasterella
+
+- title: "Spatial phylogenetics with continuous data: an application to California bryophytes"
+  authors: "Kling, Matthew M.; Gonzalez-Ramirez, Ixchel S.; Carter, Benjamin; Borokini, Israel; Mishler, Brent D."
+  year: 2025
+  journal: "Systematic Botany"
+  volume:
+  number:
+  pages:
+  description: In this paper we present *smoothed* spatial phylogenetics metrics, that directly use taxa probability of occurrence without the need of occurrence thresholds. We apply these metrics to a dataset of California bryophytes to uncover diversity patterns across this biodiversity hotspot.
+  image: assets/theme/images/papers/Bryos_spatial.png
+  url:
+  doi:
+  pdf:
+  code:
+  tags:
+    - spatial phylogenetics
+    - bryophytes
+    - California
+
+- title: "Unveiling nature's sunscreen: the potential role of liverwort scales in UV protection"
+  authors: "Jain, Riya; Shahryari, Atra; Gonzalez-Ramirez, Ixchel S."
+  year: 2024
+  journal: "Madroño"
+  volume: "71"
+  number: "4"
+  pages: "145--150"
+  description: Various xerophytic liverworts role into their ventral scales when dessecated. Often, these liverworts also have purple scales. In this paper, we test whether these red ventral scales differentially absorbe UV-radiation. This constitutes the first step towards understanding the potential role of ventral scales on adaptation to xeric environments. 
+  image: assets/theme/images/papers/scales.png
+  url: https://bioone.org/journals/madroño/volume-71/issue-4/0024-9637-71.4.145/UNVEILING-NATURES-SUNSCREEN--THE-POTENTIAL-ROLE-OF-LIVERWORT-SCALES/10.3120/0024-9637-71.4.145.full
+  doi: https://doi.org/10.3120/0024-9637-71.4.145
+  pdf:
+  code:
+  tags:
+    - liverworts
+    - UV protection
+    - scales

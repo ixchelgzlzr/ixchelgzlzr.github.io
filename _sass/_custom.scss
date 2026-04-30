@@ -1,0 +1,77 @@
+// Custom styling
+// 
+// Include the file _sass/_custom.scss to your site to add custom styling
+
+.publication-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.publication-item {
+  border-bottom: 1px solid $gray-200;
+  display: grid;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+
+  @include media-breakpoint-up(md) {
+    grid-template-columns: 150px 1fr;
+  }
+}
+
+.publication-image {
+  aspect-ratio: 3 / 4;
+  background-color: $gray-100;
+  border: 2px solid $primary;
+  overflow: hidden;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+.publication-body {
+  h2 {
+    font-size: 1.35rem;
+    margin-bottom: 0.25rem;
+  }
+}
+
+.publication-authors,
+.publication-meta {
+  color: $gray-600;
+  margin-bottom: 0.35rem;
+}
+
+.publication-description {
+  p {
+    margin-bottom: 1rem;
+  }
+}
+
+.publication-meta {
+  span + span:before {
+    content: " | ";
+  }
+}
+
+.publication-tags,
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.publication-tags {
+  margin-bottom: 0.75rem;
+
+  span {
+    border: 1px solid $gray-300;
+    color: $gray-600;
+    font-family: $font-family-base;
+    font-size: 0.75rem;
+    padding: 0.1rem 0.45rem;
+    text-transform: uppercase;
+  }
+}

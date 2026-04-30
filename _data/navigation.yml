@@ -1,0 +1,23 @@
+# Links listed below will be included in your site's navbar (navigation at the top)
+
+- text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
+  href: /
+- text: Research
+  href: /research/
+- text: People
+  href: /people/
+- text: Publications
+  href: /publications/
+- text: Resources
+  menu: # Dropdown menu (one level deep only)
+  - text: Teaching
+    href: /resources/teaching/
+  - text: Calasterella genomic resources
+    href: /resources/ccal_genome/
+  - text: Code
+    href: /resources/code/
+- text: News
+  href: /news/    
+- text: GitHub
+  href: https://github.com/ixchelgzlzr
+  new_window: true

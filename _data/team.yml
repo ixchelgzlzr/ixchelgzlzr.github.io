@@ -1,0 +1,20 @@
+# Project team members listed below will appear on the /team page
+
+- name: Ixchel González-Ramírez
+  role: PI # Will appear next to name
+  image: assets/theme/images/people/ixchel_2.png # Can be external link
+  description: > # Can be Markdown
+     I am an evolutionary biologist amazed by the diversity of life and interested in understanding the processes that shape it. My work oscillates around two main axes: uncovering the interesting and unique biology of complex thalloid liverworts, and developing and using integrative phylogenetic methods that combine different sources of information to reconstruct the evolutionary history of life. When I'm not doing research, I am probably doing something related to dogs or basketball. 
+  orcid: 0000-0003-3667-5360
+  googlescholar: googlescholar_username
+  bluesky: ixchelgr.bsky.social
+  github: ixchelgzlzr
+  email: name@example.com
+
+- name: Patata Waffles González
+  role: Associate researcher and lab guardian
+  image: assets/theme/images/people/patata.png
+  description: >
+    Patata studies squirrel behavior. She is also the full time guardian of the lab. In her free time she is probably sniffing something questionable or requesting pets from trusted humans.
+
+
